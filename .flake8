@@ -1,0 +1,11 @@
+[flake8]
+select = ANN,B,B9,BLK,C,D,DAR,E,F,I,S,W
+docstring-convention = numpy
+strictness = short
+docstring_style = numpy
+ignore = E203,E501,W503
+max-line-length = 88
+application-import-names = complex_epidemic_simulator,tests
+per-file-ignores =
+    tests/*:S101,ANN
+    noxfile.py:ANN
